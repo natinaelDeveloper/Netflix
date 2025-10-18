@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import Header from "../../components/Header/Header.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
@@ -10,7 +10,6 @@ const Home = () => {
       <Footer />
     </>
   );
-}
+};
 
-export default Home
-
+export default Home;
