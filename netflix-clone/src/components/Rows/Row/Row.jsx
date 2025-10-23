@@ -63,7 +63,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
           />
         ))}
       </div>
-      <div style={{ padding: "40px" }}>
+      <div style={{ padding: "5px" }}>
         {trailerUrl && (
           <YouTube
             videoId={trailerUrl}

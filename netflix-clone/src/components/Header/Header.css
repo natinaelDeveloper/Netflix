@@ -1,17 +1,19 @@
 .header_outer_container{
-    position:stick;
+    position:sticky;
     top: 0;
-    display:flex;
+    display: flex;
     justify-content: center;
-    /* background-color: rgb(148, 132, 132); */
+    background-color: rgb(148, 132, 132);
     background-color: rgb(20, 20, 20);
     background-color: transparent;
     height: 10vh;
     color: white;
     transition: all 0.5s;
     transition-timing-function: ease-in ;
-    z-index: 1;
-    /* background-color: red; */
+    z-index:7;
+    background-color: rgba(0,0,0,0,9);
+    transition: background-color 0.3s ease;
+    background-color: #111;
 }
 .nav_black{
     background-color: rgb(20, 20, 20);
@@ -21,10 +23,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: yellow; */
+    /* background-color: #111; */
 }
 .header_left ul{
-    width: 140%;
+    font-size: larger;
+    width: 150%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,10 +36,13 @@
     /* background-color: lightblue; */
 }
 .header_right ul{
+ 
+   
     width: 150%;
     display: flex;
     justify-content: space-between;
     list-style: none;
     cursor: pointer;
     /* background-color: lightblue; */
+    
 }
